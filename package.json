@@ -1,0 +1,25 @@
+{
+  "name": "btc-multisig-generator",
+  "version": "1.0.0",
+  "description": "Gera um endereço bitcoin multisig 2 de 3 e o mostra com as chaves privadas usadas para criá-lo.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaccanedo/btc-multisig-generator.git"
+  },
+  "keywords": [
+    "multisig"
+  ],
+  "author": "Isac Canedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaccanedo/btc-multisig-generator/issues"
+  },
+  "homepage": "https://github.com/isaccanedo/btc-multisig-generator#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^4.0.1"
+  }
+}
